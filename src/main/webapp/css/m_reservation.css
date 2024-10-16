@@ -1,0 +1,44 @@
+@media screen and (min-width:340px) and (max-width:560px) {
+.reser_ol {
+	width:100%;
+	height:auto;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:13px;	
+	font-weight:300;
+	word-spacing: -2px;
+}
+.reser_ol > li {
+	width: inherit;
+	height: 40px;
+}
+.reser_ol > li > span {
+	display: inline-block;
+	box-sizing: border-box;
+	line-height: 40px;
+}
+.reser_part1 {
+	width: 30%;
+	background-color:#ddd;
+	text-indent: 5px;
+	color:black;
+}
+.reser_ol > li:first-child .reser_part2{
+	
+} 
+.reser_part2 {
+	width: 68%; 
+	text-indent: 5px;
+}	
+
+.reser_select { 
+	width:60%;
+	height:35px;	
+}
+.reser_input {
+	width:80%;
+	height:35px;
+}
+
+
+
+}

@@ -1,0 +1,173 @@
+@media screen and (min-width:340px) and (max-width:560px) {
+   .admin_header{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+   }
+    .admin_login {
+        width: 95%;
+        height: 200px !important;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .admin_login > p {
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .admin_login > p > img {
+        width: 30px;
+        height: 30px;
+    }
+    .admin_login > p > span{
+        display: block;
+        height: 30px;
+        font-size: 16px;
+        font-weight: bolder;
+        line-height: 30px;
+    }
+    .admin_part {
+        height: auto;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .admin_part > li {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    .adin1{
+        width: 100%;
+        height: 35px;
+        border: 1px solid skyblue;
+        border-radius: 3px;
+        text-indent: 5px;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    .adbtn1 {
+        width: 100%;
+        height: 35px;
+        border-radius: 3px;
+        border: 1px solid darkblue;
+        background-color: skyblue;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight:bolder;
+    }
+
+    .admin_qa {
+        width: 95%;
+        height: auto !important;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .admin_qa > p {
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .admin_qa > p > img {
+        width: 30px;
+        height: 30px;
+    }
+    .admin_qa > p > span{
+        display: block;
+        height: 30px;
+        font-size: 16px;
+        font-weight: bolder;
+        line-height: 30px;
+    }
+    .admin_lists{
+        width: 100%;
+        height: auto;
+        border-top:2px solid skyblue;
+        border-bottom: 1px solid skyblue;
+        margin-bottom: 20px;
+    }
+    .admin_lists > p {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .lists_uls {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border-bottom: 1px dashed skyblue;
+    }
+    .lists_uls > li { 
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .color1 {
+        background-color: rgb(213, 241, 251);
+    }
+    .lists_uls > li:nth-of-type(1) {
+        width: 65%;
+    }
+    .lists_uls > li:nth-of-type(2) {
+        width: 15%;
+    }
+    .lists_uls > li:nth-of-type(3) {
+        width: 20%;
+    }
+
+    .lists_uls:last-of-type{
+        border-bottom: none;
+    }
+
+    /* qa문의 내용 답변부분 */
+    .qa_write {
+        width: 100%;
+        height: 420px;
+    }
+    .qa_write > li {
+        width: 100%;
+    }
+    .qa_write > li:nth-of-type(odd){
+        height: 30px;
+        font-size: 13px;
+        line-height: 30px;
+        border-bottom: 1px dashed skyblue;
+        background-color: rgb(224, 245, 253);
+        font-weight: 800;
+    }
+    .qa_write > li:nth-of-type(even){
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .view1 {
+        height: auto !important;
+    }
+    .answer {
+        width: 100%;
+        height: 100px;
+        resize: none;
+    }
+}
